@@ -14,7 +14,7 @@ const messageVariants = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.3 } },
 };
 
-const genAI = new GoogleGenerativeAI("AIzaSyC1C3TyJMCGvKDnBW-jje5rigBaDwis1ew");
+const genAI = new GoogleGenerativeAI(import.meta.env.VITE_GEMINI_API_KEY);
 
 const TypingIndicator = () => (
   <div className="typing-indicator">
@@ -81,7 +81,7 @@ const ChatBot = () => {
       return text;
     } catch (error) {
       console.error("Error generating response:", error);
-      return "দুঃখিত, একটি সমস্যা হয়েছে। আবার চেষ্টা করুন।";
+      return "আরে বাবা একটু থাম আমি এই মুহূর্তে ব্যাস্ত একটু পর চেষ্টা করে রে বাবা পাগল করে দিচ্ছিস তোরা";
     }
   };
 
