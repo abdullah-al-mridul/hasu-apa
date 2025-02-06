@@ -1,8 +1,18 @@
-# React + Vite
+# হাসু আপা - AI চ্যাটবট 👹
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+একটি মজার AI চ্যাটবট যা শেখ হাসিনার চরিত্রে কথা বলে। এটি Google-এর Gemini AI মডেল ব্যবহার করে তৈরি করা হয়েছে।
 
-Currently, two official plugins are available:
+## 🚀 ফিচারসমূহ
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 💬 শেখ হাসিনার মতো ব্যক্তিত্ব নিয়ে কথা বলে
+- 🎨 সুন্দর এবং রেসপনসিভ UI
+- ⚡ রিয়েল-টাইম রেসপন্স
+- 🌙 ডার্ক থিম
+- 📱 মোবাইল ফ্রেন্ডলি
+
+## 🛠️ ব্যবহৃত টেকনোলজি
+
+- React.js
+- Framer Motion
+- Google Gemini AI API
+- CSS3

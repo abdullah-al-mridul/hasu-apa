@@ -179,7 +179,7 @@ const ChatBot = () => {
 
             {/* GitHub Link */}
             <motion.a
-              href="https://github.com/shakilahmedatik"
+              href="https://github.com/abdullah-al-mridul/sheikh-hasina"
               target="_blank"
               rel="noopener noreferrer"
               className="github-link"
